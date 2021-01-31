@@ -1,0 +1,383 @@
+$backgroundColor: #ffffff;
+$bodyColor: #000000;
+$bodyFont: Muli,sans-serif;
+
+$textColour: #6c7a89;
+$headerColour: #2a2f36;
+
+$accentColour: #ffeb00;
+$heroColour: #f1f3f2;
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+html {
+    font-size: 100%;
+    -webkit-overflow-scrolling: touch;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%
+}
+
+body {
+    background: $backgroundColor;
+    font-family: $bodyFont;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1;
+    color: $bodyColor;
+}
+
+body, html {
+    height: 100%
+}
+
+.site {
+    padding-top: 60px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Muli, sans-serif;
+    color: #2a2f36;
+}
+
+h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child {
+    margin-top: 0
+}
+
+.h1, h1 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -.02em
+}
+
+@media only screen and (min-width: 768px) {
+    .h1, h1 {
+        font-size: 35px
+    }
+}
+
+@media only screen and (min-width: 1220px) {
+    .h1, h1 {
+        font-size: 45px
+    }
+}
+
+.h2, h2 {
+    padding-top: 40px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -.02em
+}
+
+@media only screen and (min-width: 768px) {
+    .h2, h2 {
+        font-size: 30px
+    }
+}
+
+@media only screen and (min-width: 1220px) {
+    .h2, h2 {
+        font-size: 35px
+    }
+}
+
+.h3, h3 {
+    padding-top: 40px;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.3;
+    letter-spacing: -.02em
+}
+
+@media only screen and (min-width: 768px) {
+    .h3, h3 {
+        font-size: 25px
+    }
+}
+
+@media only screen and (min-width: 1220px) {
+    .h3, h3 {
+        font-size: 30px
+    }
+}
+
+.h4, h4 {
+    padding-top: 25px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1.6;
+    letter-spacing: 0
+}
+
+@media only screen and (min-width: 768px) {
+    .h4, h4 {
+        font-size: 22px
+    }
+}
+
+@media only screen and (min-width: 1220px) {
+    .h4, h4 {
+        font-size: 22px
+    }
+}
+
+.h5, h5 {
+    padding-top: 15px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1.6;
+    letter-spacing: 0
+}
+
+@media only screen and (min-width: 768px) {
+    .h5, h5 {
+        font-size: 20px
+    }
+}
+
+@media only screen and (min-width: 1220px) {
+    .h5, h5 {
+        font-size: 20px
+    }
+}
+
+.h6, h6 {
+    padding-top: 15px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1.6;
+    letter-spacing: 0
+}
+
+@media only screen and (min-width: 768px) {
+    .h6, h6 {
+        font-size: 20px
+    }
+}
+
+@media only screen and (min-width: 1220px) {
+    .h6, h6 {
+        font-size: 20px
+    }
+}
+
+ol, p, ul {
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: 0
+}
+
+@media only screen and (min-width: 768px) {
+    ol, p, ul {
+        font-size: 17px
+    }
+}
+
+@media only screen and (min-width: 1220px) {
+    ol, p, ul {
+        font-size: 19px
+    }
+}
+
+ol strong, p strong, ul strong {
+    font-weight: 600
+}
+
+ol:first-child, p:first-child, ul:first-child {
+    margin-top: 0
+}
+
+ol, ul {
+    list-style-position: inside
+}
+
+
+a {
+    text-decoration: none;
+    color: #2a2f36;
+    font-weight: 600;
+    -webkit-transition: all .15s ease-in-out;
+    -moz-transition: all .15s ease-in-out;
+    -ms-transition: all .15s ease-in-out;
+    -o-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out
+}
+
+
+//a:hover {
+//    background-color: $accentColour;
+//    color: black;
+//}
+
+ol, ul {
+    list-style-position: inside
+}
+
+.header {
+    margin-top: 40px;
+    width: 100%;
+
+    color: white;
+    background-color: black;
+}
+
+@media only screen and (min-width: 768px) {
+    header {
+        margin-top: 50px
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    header {
+        margin-top: 60px
+    }
+}
+
+@media only screen and (min-width: 1220px) {
+    header {
+        margin-top: 80px
+    }
+}
+
+.wrap {
+    position: relative;
+    margin: 0 auto;
+    padding: 0 30px;
+    max-width: 500px
+}
+
+@media only screen and (min-width: 768px) {
+    .wrap {
+        padding: 0;
+        max-width: 70%
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .wrap {
+        max-width: 65%
+    }
+}
+
+@media only screen and (min-width: 1220px) {
+    .wrap {
+        max-width: 60%
+    }
+}
+
+.menu {
+    top: 25%;
+    right: 20px;
+    -moz-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+
+    position: absolute;
+    display: flex;
+    background: 0 0;
+    visibility: visible;
+    overflow: visible;
+    opacity: 1;
+
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+
+    .menu-item {
+        list-style: none!important;
+        margin-right: 20px;
+
+        padding: 0 0 3px;
+        font-size: 20px;
+        color: #2a2f36;
+        border-bottom: 3px solid transparent;
+    }
+
+    .active {
+        color: #2a2f36;
+        border-color: $accentColour!important;
+    }
+}
+
+.site-title {
+    margin-left: 20px;
+    padding-top: 10px;
+    font-size: 28px;
+    font-family: Playfair Display, serif;
+}
+
+#navbar {
+    background-color: black;
+    background-color: #white;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    height: 55px;
+    width: 100%
+}
+
+.page {
+    min-height: 100vh;
+    background-color: $heroColour;
+}
+
+.page, .page-content {
+    float: left;
+    clear: both;
+    width: 100%
+}
+
+.page:first-of-type {
+    margin-top: 60px;
+}
+
+section {
+    margin-top: 40px
+}
+
+.logo-section {
+    min-height: 100vh;
+
+    text-align: center;
+    top: 50%;
+    display: grid;
+
+    .logo-wrapper {
+        margin: auto;
+    }
+
+    h1 {
+        font-family: Playfair Display, serif;
+        font-size: 6rem;
+        position:relative;
+
+        transform: translateY(-200px);
+    }
+}
+
+.yellow-box {
+    background-color: $accentColour;
+    width: 300px;
+    height: 150px;
+    position:relative;
+}
+
+.shrink {
+
+}
