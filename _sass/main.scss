@@ -326,10 +326,29 @@ ol, ul {
         border-bottom: 3px solid transparent;
     }
 
+    .menu-item:last-of-type {
+        margin-right: 0px;
+    }
+
     .active {
         color: #2a2f36;
         border-color: $accentColour!important;
     }
+}
+
+.logo-menu {
+    @extend .menu;
+    text-align: center;
+
+    position: relative;
+    right: unset;
+
+    -moz-transform: translate(0, -100px);
+    -o-transform: translate(0, -100px);
+    -ms-transform: translate(0, -100px);
+    -webkit-transform: translate(0, -100px);
+    transform: translate(0, -100px);
+
 }
 
 .site-title {
@@ -337,11 +356,6 @@ ol, ul {
     padding-top: 10px;
     font-size: 28px;
     font-family: Playfair Display, serif;
-}
-
-#navbar {
-    background-color: black;
-    background-color: #white;
 }
 
 .sticky {
@@ -366,10 +380,6 @@ ol, ul {
     margin-top: 60px;
 }
 
-section {
-    margin-top: 40px
-}
-
 .logo-section {
     min-height: 100vh;
 
@@ -392,11 +402,8 @@ section {
 
 .logo-box {
     background-color: $accentColour;
-    width: 300px;
+    //width: 300px;
     height: 150px;
     position:relative;
 }
 
-.shrink {
-
-}
