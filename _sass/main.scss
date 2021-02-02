@@ -8,6 +8,9 @@ $headerColour: #2a2f36;
 // Blue
 //$accentColour: #6699dd;
 
+// Lighter Blue
+$accentColour: #8db4ef;
+
 // ?? Teal I guess
 //$accentColour: #008080;
 
@@ -18,7 +21,7 @@ $headerColour: #2a2f36;
 //$accentColour: #BFFF00;
 
 // Lighter Teal
-$accentColour: #12d0d0;
+//$accentColour: #12d0d0;
 
 // Darker Teal
 //$accentColour: #01F9C6;
@@ -387,7 +390,7 @@ section {
     }
 }
 
-.yellow-box {
+.logo-box {
     background-color: $accentColour;
     width: 300px;
     height: 150px;
