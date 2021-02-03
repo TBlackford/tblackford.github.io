@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "TBlackford"
-active: "about"
+active: "work"
 ---
 
 ## You're ready to go!
