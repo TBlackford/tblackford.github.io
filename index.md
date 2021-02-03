@@ -1,7 +1,6 @@
 ---
 layout: home
 title: "TBlackford"
-
 ---
 
 ## You're ready to go!

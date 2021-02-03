@@ -400,6 +400,15 @@ ol, ul {
     }
 }
 
+@media only screen and (max-width: 768px) {
+    .logo-section {
+        height: 100%;
+        text-align: center;
+        display: grid;
+        top: 25px;
+    }
+}
+
 .logo-box {
     background-color: $accentColour;
     //width: 300px;
