@@ -343,11 +343,11 @@ ol, ul {
     position: relative;
     right: unset;
 
-    -moz-transform: translate(0, -100px);
-    -o-transform: translate(0, -100px);
-    -ms-transform: translate(0, -100px);
-    -webkit-transform: translate(0, -100px);
-    transform: translate(0, -100px);
+    -moz-transform: translate(0, -300px);
+    -o-transform: translate(0, -300px);
+    -ms-transform: translate(0, -300px);
+    -webkit-transform: translate(0, -300px);
+    transform: translate(0, -300px);
 
 }
 
@@ -388,7 +388,8 @@ ol, ul {
     display: grid;
 
     .logo-wrapper {
-        margin: auto;
+        padding-top: 25%;
+        margin: 0 auto;
     }
 
     h1 {
@@ -404,16 +405,30 @@ ol, ul {
     .logo-section {
         height: 100%;
         text-align: center;
-        display: block;
-        padding-top: 50%;
         top: 0;
+        display: grid;
+    }
+
+    h1 {
+        transform: translateY(-50px);
+    }
+
+    .logo-wrapper {
+        //display: grid;
     }
 }
 
 .logo-box {
     background-color: $accentColour;
     //width: 300px;
+    width: 100%;
     height: 150px;
     position:relative;
 }
 
+
+@media only screen and (max-width: 768px) {
+    .logo-box {
+
+    }
+}
