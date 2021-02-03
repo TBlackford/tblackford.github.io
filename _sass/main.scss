@@ -418,6 +418,15 @@ ol, ul {
     }
 }
 
+
+@media only screen and (min-width: 1220px) {
+    .logo-section {
+        .logo-wrapper {
+            padding-top: 15%;
+        }
+    }
+}
+
 .logo-box {
     background-color: $accentColour;
     //width: 300px;
