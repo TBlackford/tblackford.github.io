@@ -404,8 +404,9 @@ ol, ul {
     .logo-section {
         height: 100%;
         text-align: center;
-        display: grid;
-        top: 25px;
+        display: block;
+        padding-top: 50%;
+        top: 0;
     }
 }
 
