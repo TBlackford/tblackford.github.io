@@ -2,7 +2,7 @@
 layout: post
 title: "First Post"
 subtitle: "A new Hope"
-active: "about"
+active: "articles"
 ---
 
 ## Hello world!

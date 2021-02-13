@@ -3,6 +3,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 title: "TBlackford" # the name of your site, e.g. ACME Corp.
 
 collections:
+  articles:
+    output: true
+    permalink: /:collection/:name
   posts:
     output: true
     permalink: /:collection/:name

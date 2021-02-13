@@ -4,14 +4,14 @@ title: "TBlackford"
 active: "articles"
 ---
 
-## You're ready to go!
-
-Start developing your Jekyll website.
+## Articles
 
 <ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
+    {% for article in site.articles %}
+        <li>
+            <a href="{{ article.url }}">{{ article.title }}</a>
+        </li>
+    {% else %}
+        <p>No Articles</p>
+    {% endfor %}
 </ul>
