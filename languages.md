@@ -1,7 +1,6 @@
 ---
 layout: inner
 title: 'Languages'
-
 permalink: /languages/
 pagination:
     enabled: true
@@ -9,12 +8,10 @@ pagination:
 
 # Languages
 
-> I quite like languages
-
 <div>
 {% for post in site.languages %}
     <div class="wow fadeIn">
-        {% include content-right.html %}
+        {% include language-post-item.html %}
     </div>
 {% endfor %}
 </div>

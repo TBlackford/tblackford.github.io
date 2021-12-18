@@ -30,9 +30,11 @@ plugins:
 
 # Collection settings
 collections:
-  - posts
-  - projects
-  - languages
+  languages:
+      output: true
+      permalink: /languages/:title
+
+permalink: /:collection/:path/
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
