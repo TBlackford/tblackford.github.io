@@ -2,6 +2,7 @@
 
     <div class="row">
 
+        {% if post.featured_image %}
         <div class="col-xs-12 col-md-6">
             {% include featured-image.html %}
         </div>
@@ -9,6 +10,11 @@
         <div class="col-xs-12 col-md-6">
             {% include post-content.html %}
         </div>
+        {% else %}
+        <div class="col-xs-12 col-md-12">
+            {% include post-content.html %}
+        </div>
+        {% endif %}
 
     </div>
 

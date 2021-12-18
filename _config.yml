@@ -28,6 +28,12 @@ markdown: kramdown
 plugins:
   - jekyll-paginate-v2
 
+# Collection settings
+collections:
+  - posts
+  - projects
+  - languages
+
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
 # The values here represent the defaults if nothing is set
@@ -99,4 +105,4 @@ enable_nav: true
 nav_item:
   - { url: '/', text: 'Home' }
   - { url: '/about', text: 'About' }
-  - { url: '/foobar', text: 'Foobar' }
+  - { url: '/languages', text: 'Languages' }
