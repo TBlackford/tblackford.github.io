@@ -45,10 +45,25 @@ a:hover:after {
 ul {
     list-style: none;
     padding: 0px;
-    max-width: 28em;
 }
 ul li:before
 {
     content: '👉';
-    margin: 0 0.5em 0 2.5em;    /* any design */
+    margin: 0 0.5em 0 1.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0px;
+    max-width: 28em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li:before {
+    content: none;
+    margin: 0 2.5em!important;
 }
